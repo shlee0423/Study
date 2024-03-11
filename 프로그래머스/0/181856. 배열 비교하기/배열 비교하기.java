@@ -12,10 +12,8 @@ class Solution {
         else{
             for(int i=0; i<arr1.length; i++){
                 a+=arr1[i];
-            }
-            for(int j=0; j<arr2.length; j++){
-                b+=arr2[j];
-            }
+                b+=arr2[i];
+            }            
             if(a>b){
                 answer=1;
             }
