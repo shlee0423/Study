@@ -10,11 +10,6 @@ class Solution {
                 b+=num_list[i];
             }
         }
-        if(a>=b){
-            return a;
-        }
-        else{
-            return b;
-        }
+        return Math.max(a,b);
     }
 }
