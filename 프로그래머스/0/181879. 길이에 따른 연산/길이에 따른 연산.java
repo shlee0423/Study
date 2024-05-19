@@ -9,7 +9,7 @@ class Solution {
         else{
             answer+=1;
             for(int i=0; i<num_list.length; i++){
-                answer = answer*num_list[i];
+                answer*=num_list[i];
             }
         }
         return answer;
